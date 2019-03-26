@@ -8,7 +8,7 @@ namespace StudentMinMax
         {
             foreach (var student in students)
             {
-                //test
+                
                 Console.WriteLine($"{student.Name} Min: {student.GetMinimumScore()} Max: {student.GetMaximumScore()}");
             }
 
